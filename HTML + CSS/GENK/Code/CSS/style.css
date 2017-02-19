@@ -1,0 +1,266 @@
+*{
+	margin:0px;
+	padding: 0px;
+	font-size:16;
+}
+body {
+	max-width: 960px;
+	margin:0 auto;
+	display:block;
+}
+#header {
+	width:101%;
+	
+}
+#header #sub-menu {
+	width:100%;
+	display:block;
+	overflow: none;
+	height: 25px;
+	background-color: #2E2E2E;
+	
+}
+#header #sub-menu ul li {
+	float:left;
+	list-style-type: none;
+	display:block;
+	margin :0px 10px;
+}
+#header #sub-menu ul li a {
+	text-decoration:none;
+	color:white; 
+}
+
+#header #sub-menu ul li a:hover{
+	color:#C0FFE0;
+}
+#header-left {
+	width:100%;
+	height:45px;
+	display:block;
+	background-color: #222222;
+}
+#header-left .logo {
+	width:20%;
+	height:100%;
+	float:left;
+	margin-left: 1px;
+
+}
+#header-left .logo img{
+	width:100%;
+	height: 100%;
+}
+#header-left #menu {
+	width:78%;
+	display:block;
+	height: 100%;
+	overflow: none;
+}
+#header-left #menu ul li {
+	float:left;
+	display:block;
+	margin-left: 15px;
+	margin-top: 10px;
+	padding-left: 10px;
+}
+#header-left #menu ul li a {
+	text-decoration: none;
+	color:#FFFFFF;
+
+}
+#header-left #menu ul li a:hover{
+	color:#FF2424;
+}
+#main-content {
+	width:100%;
+
+}
+#main-content .content1 {
+	width:100%;
+	overflow: none;
+}
+#main-content .content1 .post {
+	width:50%; 
+	float:left;
+	margin-bottom: 10px;
+}
+#main-content .content1 .post .post-images {
+	width:100%;
+	height:350px;
+}
+
+#main-content .content1 .post .post-images img{
+	width:100%;
+	height:100%;
+}
+#main-content .content1 .post .post-content {
+	padding-right:20px;
+}
+#main-content .content2 {
+	width:100%;
+}
+#main-content .content2 .post{
+	width:100%;
+	float:left;
+	margin-top: 20px;
+	background-color: lightblue;
+}
+#main-content .content2 .post .post-images {
+	width:30%;
+	height:200px;
+	display:block;
+	float:left;
+	padding-right:30px;
+}
+#main-content .content2 .post .post-images img {
+	width:100%;
+	height:100%;
+	float:left;
+	display:block;
+}
+#main-content .content2 .post .post-content {
+	
+	text-align: left;
+	width:100%;
+	margin-top: 20px;
+	display: block;
+}
+#main-content .content2 .post .post-content .post-title-content {
+	padding:10px;
+}
+#main-content .content3 {
+	width:960px;
+	margin:40px 0px;
+}
+#main-content .content3 .post3{
+	width:100%;
+	float:left;
+	margin-top: 0px;
+	background-color: black;
+}
+#main-content .content3 .post3 .post-images3 {
+	width:40%;
+	height:200px;
+	display:block;
+	float:left;
+	padding-right:30px;
+}
+#main-content .content3 .post3 .post-images3 img {
+	width:100%;
+	height:100%;
+	float:left;
+	display:block;
+}
+#main-content .content3 .post3 .post-content3 {	
+	text-align: left;
+	width:100%;
+	margin-top: 20px;
+	display: block;
+	color: white
+}
+#main-content .content3 .post3 .post-content3 .post-title-content3 {
+	padding:10px;
+	color: white;
+}
+/*end 3*/
+#main-content .content4 {
+	width:960px;
+	margin:40px 0px;
+}
+#main-content .content4 .post{
+	width:100%;
+	float:left;
+	margin-top: 10px;
+	background-color: white;
+}
+#main-content .content4 .post .post-images {
+	width:30%;
+	height:200px;
+	display:block;
+	float:left;
+	padding-right:30px;
+}
+#main-content .content4 .post .post-images img {
+	width:100%;
+	height:100%;
+	float:left;
+	display:block;
+}
+#main-content .content4 .post .post-content {	
+	text-align: left;
+	width:100%;
+	margin-top: 0px;
+	display: block;
+	color: black
+}
+#main-content .content4 .post .post-content .post-title-content {
+	padding:10px;
+}
+/*main*/
+#footer {
+	width: 960px;
+	display: block;
+	background-color: #191919;
+	color:white;
+}
+#footer .top-footer {
+	width:100%;
+	height:80px;
+}
+#footer .top-footer .logo{
+	width:30%;
+	float:left;
+	height:100px;
+	padding-left: 1px;
+}
+#footer .top-footer .logo img{
+	width:100%;
+	height:100%;
+}
+#footer .top-footer #search{
+	width:20%;
+	height:100px;
+	float:right;
+	padding-top: 20px;
+	border-radius: 150px;
+}
+.center-footer {
+	width:100%;
+	display:block;
+	padding-top:50px;
+}
+.center-footer .menu-footer{
+	width:100%;
+	display:block;
+	overflow: none;
+	padding-top: 10px;
+}
+.center-footer .menu-footer ul li {
+	width:100px;
+	height:30px;
+	display:inline-block;
+	float:left;
+	list-style-type:none;
+	overflow: none
+}
+.center-footer .menu-footer ul li:hover{
+	color:red;
+}
+.info-footer{
+	width:100%;
+	height:300px;
+} 
+.info-footer .address{
+	width:48%;
+	display: block;
+	padding-top: 50px;
+	padding-right:30px;
+	padding-left:10px;
+	height:150px;
+	float:left;
+}
+.info-footer .PR {
+	height:150px;
+	padding-top:80px;
+}
